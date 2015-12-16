@@ -1,0 +1,188 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, panel, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, panel, hgroup, menu, nav, section {
+  display: block; }
+
+panel {
+  text-align: center;
+  height: 545px; }
+
+
+body {
+  line-height: 26px; 
+  font-family: 'Avenir Next', sans-serif;
+}
+
+ol, ul {
+	list-style: square;
+	margin-left: 20px;
+}
+
+.nav {
+	margin: 0 auto;
+	width: 900px; }  
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 14px 10px;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.nav li {
+  display: inline;
+  margin: 0 auto;
+}
+
+.nav ul {
+    margin-top: 30px;
+    float: right; }
+
+.nav ul li {
+      float: left;
+      margin-right: 10px; }
+
+.panel {
+	margin: 0 auto;
+	margin-top: 0px;
+	padding-top: 75px;
+	width: 750px; }
+	.panel #images ul {
+		margin-left: -35px;
+		text-align: center;
+		width: 850px; }
+
+	.panel #images li {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 238px;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 138px; }
+	.panel #images li.die {
+	background: url("./dusty-sensor1.png") no-repeat center center;
+	background-size:contain;
+}
+	.panel #images li.portrait {
+	  background: url("./dusty-wusty.png") no-repeat center center;
+	background-size:contain;
+	width: 238px;
+}
+	.panel #images li.chip {
+	  background: url("./dusty-sensor3.png") no-repeat center center; 
+	background-size:contain;
+	width: 188px;
+	}
+	.panel h1 {
+		color: #2CBF9E;
+		font-size: 36px;  
+		font-weight: bold;
+		text-align: center;
+		padding: 20px 5px;
+	}
+	
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.description {
+  /*background-color: #f7f7f7;*/
+  margin: 0 auto;
+  width: 400px;
+  padding-left: 400px;
+  padding-top: 25px;
+}
+
+.description p {
+  margin: 0 auto; 
+  font-family: 'Avenir Next', sans-serif;
+  color: #4A4A4A;
+  line-height: 150%;
+  font-size: 18px;
+}
+
+.content {
+  margin: 0 auto;
+  width: 750px;
+  padding-top: 25px;
+  padding-left: 75px;
+}
+
+.content h2 {
+  font-family: 'Avenir Next', sans-serif; 
+  font-weight: bold;
+  color: #2CBF9E;
+  font-size: 30px;
+  padding-top: 35px;
+}
+
+.content h3 {
+  font-family: 'Avenir Next demibold', sans-serif; 
+  color: #979797;
+  font-size: 20px;
+  padding-top: 30px;
+  line-height: 26px;
+  padding-bottom: 5px;
+}
+
+.content h4 {
+  font-family: 'Avenir Next demibold', sans-serif; 
+  color: #979797;
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-style: italic;
+}
+
+.content h5 {
+  font-family: 'Avenir Next', sans-serif; 
+  color: #4A4A4A;
+  font-size: 18px;
+  line-height: 26px;
+  padding-top: 15px;
+}
+
+
+.content li {
+  font-family: 'Avenir Next', sans-serif; 
+  color: #4A4A4A;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.content #skills {
+	padding-top: 25px; 
+	padding-bottom: 25px;
+}
+
+footer {
+	margin-top: 100px;
+	text-align: center;
+	padding-bottom: 25px;
+}

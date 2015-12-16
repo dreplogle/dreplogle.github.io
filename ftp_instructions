@@ -1,0 +1,1 @@
+scp -i ../old_fabler_files/nevermakeitnever.pem ec2-user@54.213.11.129:/var/www/html/* ./
